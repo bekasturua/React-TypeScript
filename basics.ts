@@ -16,5 +16,27 @@ let isInstructor: boolean;
 
 isInstructor = true;
 
+// More coplex types
 
+let hobbies: string[];
 
+hobbies = ["Sports", "Cooking"];
+
+let person: {
+    name: string;
+    age: number;
+};
+
+person = {
+    name: "Beka",
+    age: 21
+};
+
+// person = {
+//     isEmployee: true
+// }
+
+let people: {
+    name: string;
+    age: number;
+}[];
